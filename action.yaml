@@ -1,0 +1,10 @@
+name: "Totally legit action"
+description: "Used for amazing purposes"
+runs:
+  using: composite
+  steps:
+    - name: Important stuff
+      id: important_stuff
+      shell: bash
+      run: |
+        echo "Doing good things"
